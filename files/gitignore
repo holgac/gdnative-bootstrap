@@ -1,0 +1,11 @@
+.obj
+.pdb
+.out
+.exe
+.dll
+cmake-build-debug/
+cmake-build-release/
+godot/.import/
+godot/bin/
+*.log
+bin/

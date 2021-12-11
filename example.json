@@ -1,0 +1,28 @@
+{
+  "projects_dir": "c:\\users\\revani\\develop",
+  "project_name": "gwj40",
+  "git_url": "git@github.com:holgac/gwj40.git",
+  "submodules": {
+    "holib": {
+      "url": "git@github.com:holgac/holib.git",
+      "branch": "master",
+      "is_cmake": true
+    }
+  },
+  "include_dirs": [
+    "holib/include",
+    "holib/deps/lua",
+    "holib/deps/betterenums"
+  ],
+  "compile_definitions": [
+    "HOLIB_LUA"
+  ],
+  "dependencies": [
+    "holib",
+    "lualib"
+  ],
+  "libraries": [
+    "holib/lib/holib.lib",
+    "holib/deps/lua/lib/lualib.lib"
+  ]
+}
